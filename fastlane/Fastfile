@@ -129,7 +129,7 @@ platform :ios do
     )
 
     gym(
-      export_method: "app-store",
+      export_method: "ad-hoc",
       scheme: "LoopWorkspace",
       output_name: "Loop.ipa",
       configuration: "Release",
